@@ -3,6 +3,7 @@
     "displayName": "Karate DSL Snippets",
     "description": "Snippets to write feature files using the Karate DSL Syntax",
     "version": "0.0.1",
+    "publisher": "jawadkalia",
     "engines": {
         "vscode": "^1.30.0"
     },
