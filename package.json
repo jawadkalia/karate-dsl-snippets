@@ -1,0 +1,20 @@
+{
+    "name": "karate-dsl-snippets",
+    "displayName": "Karate DSL Snippets",
+    "description": "Snippets to write feature files using the Karate DSL Syntax",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "feature",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

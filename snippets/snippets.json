@@ -1,0 +1,36 @@
+{
+    "KTC-Rest-GET": {
+        "prefix": "KTC-Rest-GET",
+        "body": [
+            "Feature: ${1:Write the Description of the feature file here}",
+            "\r\n",
+            "\tBackground: ",
+            "\t * url ${2:baseUrl}",
+            "\n",
+            "\tScenario: ${3: Add Scenario Description here}",
+            "\t\tGiven path '${4:user}'",
+            "\t\tWhen method get",
+            "\t\tThen status 200",
+            "\t\tAnd match response == $5"
+        ],
+        "description": "Karate Feature, Do A GET call and Do equal value and type matching from response data"
+    },
+    "KTC-Rest-POST/PUT": {
+        "prefix": "KTC-Rest-POST/PUT",
+        "body": [
+            "Feature: ${1:Write the Description of the feature file here}",
+            "\r\n",
+            "\tBackground: ",
+            "\t* url ${2:baseUrl}",
+            "\t* def payload = read('./${3:payload.json})",
+            "\n",
+            "\tScenario: ${4: Add Scenario Description here}",
+            "\t\tGiven path '${5:user}'",
+            "\t\tAnd request payload",
+            "\t\tWhen method ${6|post,put|}",
+            "\t\tThen status ${7|200,201|}",
+            "\t\tAnd match response == $8"
+        ],
+        "description": "Karate Feature, 1. Do A POST/PUT call 2. Do status assertion 3. Do equal value and type matching from response data"
+    }
+}
