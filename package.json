@@ -10,6 +10,9 @@
     "categories": [
         "Snippets"
     ],
+    "repository": {
+        "url": "https://github.com/jawadkalia/karate-dsl-snippets"
+    },
     "contributes": {
         "snippets": [
             {
