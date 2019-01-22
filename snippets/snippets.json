@@ -1,6 +1,6 @@
 {
-    "KTC-Rest-GET": {
-        "prefix": "KTC-Rest-GET",
+    "KFF-Rest-GET": {
+        "prefix": "KFF-Rest-GET",
         "body": [
             "Feature: ${1:Write the Description of the feature file here}",
             "\r\n",
@@ -15,8 +15,8 @@
         ],
         "description": "Karate Feature, Do A GET call and Do equal value and type matching from response data"
     },
-    "KTC-Rest-POST/PUT": {
-        "prefix": "KTC-Rest-POST/PUT",
+    "KFF-Rest-POST/PUT": {
+        "prefix": "KFF-Rest-POST/PUT",
         "body": [
             "Feature: ${1:Write the Description of the feature file here}",
             "\r\n",
@@ -30,6 +30,18 @@
             "\t\tWhen method ${6|post,put|}",
             "\t\tThen status ${7|200,201|}",
             "\t\tAnd match response == $8"
+        ],
+        "description": "Karate Feature, 1. Do A POST/PUT call 2. Do status assertion 3. Do equal value and type matching from response data"
+    },
+    "KS-Rest-Header-GET": {
+        "prefix": "KS-Rest-Header-GET",
+        "body": [
+            "Scenario: multi-value headers",
+            "* header Authorization = 'dummy', token + time + demoBaseUrl",
+            "Given path 'headers', token",
+            "And param url = demoBaseUrl",
+            "When method get",
+            "Then status 200"
         ],
         "description": "Karate Feature, 1. Do A POST/PUT call 2. Do status assertion 3. Do equal value and type matching from response data"
     }

@@ -7,3 +7,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Initial release
     - Adding a snippet for GET calls
     - Adding choice based snippet for POST and PUT calls
+
+## [0.1.1]
+- Testing Updates to the extension
+    - added a scenario snippet to use the header keyword

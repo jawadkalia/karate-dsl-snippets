@@ -33,5 +33,9 @@ Users appreciate release notes as you update your extension.
 
 Initial release of Karate DSL Snippets
 
+### 0.1.1
+
+Testing updates to the snippet extension
+
 
 -----------------------------------------------------------------------------------------------------------
