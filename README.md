@@ -4,7 +4,12 @@ Snippets for Karate DSL.
 
 ## Features
 
-Provides Snippets for Rapid Feature file writing in Karate DSL Syntax
+Provides Snippets for Rapid Feature file writing in Karate DSL Syntax.
+
+Use KFF for Karate Feature File Snippets
+Use KS for Karate Scenario Snippets
+
+![](demo.gif)
 
 ## Requirements
 
@@ -25,6 +30,10 @@ Initial release of Karate DSL Snippets
 ### 0.1.1
 
 Testing updates to the snippet extension
+
+### 0.1.2
+
+Updating readme and adding a scenario snippet.
 
 
 -----------------------------------------------------------------------------------------------------------
