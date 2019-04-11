@@ -36,13 +36,13 @@
     "KS-Rest-Header-GET": {
         "prefix": "KS-Rest-Header-GET",
         "body": [
-            "Scenario: multi-value headers",
-            "* header Authorization = 'dummy', token + time + demoBaseUrl",
-            "Given path 'headers', token",
-            "And param url = demoBaseUrl",
-            "When method get",
-            "Then status 200"
+            "Scenario: ${1:Example Scenario to set headers for a GET call}",
+            "\r\n",
+            "\t* header Authorization = token",
+            "\tGiven path 'headers'",
+            "\tWhen method get",
+            "\tThen status 200"
         ],
-        "description": "Karate Feature, 1. Do A POST/PUT call 2. Do status assertion 3. Do equal value and type matching from response data"
+        "description": "Karate Scenario. Doing a GET call with Authorization header"
     }
 }
