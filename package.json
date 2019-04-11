@@ -2,7 +2,7 @@
     "name": "karate-dsl-snippets",
     "displayName": "Karate DSL Snippets",
     "description": "Snippets to write feature files using the Karate DSL Syntax",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "publisher": "jawadkalia",
     "engines": {
         "vscode": "^1.30.0"
